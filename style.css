@@ -1,0 +1,42 @@
+.image-container {
+    text-align: center;
+}
+.image-item {
+    display: inline-block;
+    margin: 10px;
+}
+.image-item img {
+    width: 150px; 
+    height: auto;
+}
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
